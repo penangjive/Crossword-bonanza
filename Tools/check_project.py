@@ -212,6 +212,29 @@ def check_sources(problems):
                 if text.count(open_char) != text.count(close_char):
                     problems.append(f"Package.swift has unbalanced {open_char}{close_char}")
 
+    # Bundle.module does not exist in a Swift Playgrounds app target: its
+    # resources go into the main bundle, so no accessor is synthesised and the
+    # symbol is a compile error there. This cost us a build round once already.
+    banned = {
+        "Bundle.module": "Bundle.module breaks the Swift Playgrounds build",
+        "#if SWIFT_PACKAGE": "SWIFT_PACKAGE means 'built by SwiftPM', not 'has a resource bundle'",
+    }
+    for dirpath, dirnames, filenames in os.walk(app_root):
+        for name in sorted(filenames):
+            if not name.endswith(".swift"):
+                continue
+            full = os.path.join(dirpath, name)
+            with open(full, encoding="utf-8") as handle:
+                text = handle.read()
+            # Strip comments first: explaining why we avoid these is encouraged,
+            # only actually using them is banned.
+            code = re.sub(r"/\*.*?\*/", "", text, flags=re.S)
+            code = re.sub(r"//[^\n]*", "", code)
+            for needle, why in banned.items():
+                if needle in code:
+                    relative = os.path.relpath(full, ROOT)
+                    problems.append(f"{relative} uses {needle} -- {why}")
+
     # Exactly one @main, counted in the source of truth only -- the mirror
     # carries a copy of it and would otherwise double the count.
     entry_points = []

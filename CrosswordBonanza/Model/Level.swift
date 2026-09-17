@@ -97,25 +97,44 @@ enum LevelLibrary {
         level(withID: id + 1)
     }
 
-    /// Where `levels.json` lives depends on how the app was built. The Xcode
-    /// target copies it into the main bundle; Swift Playgrounds and SwiftPM put
-    /// it in a generated resource bundle reached through `Bundle.module`.
-    /// `SWIFT_PACKAGE` is defined by SwiftPM automatically, so this costs the
-    /// Xcode build nothing.
-    private static var resourceBundles: [Bundle] {
-        #if SWIFT_PACKAGE
-        return [Bundle.module, Bundle.main]
-        #else
-        return [Bundle.main]
-        #endif
+    /// Finds `levels.json` wherever the build system happened to put it.
+    ///
+    /// This is a runtime search on purpose. The obvious-looking
+    /// `#if SWIFT_PACKAGE ... Bundle.module` does not work: that flag only means
+    /// "built by SwiftPM", not "has a separate resource bundle". A Swift
+    /// Playgrounds app target *is* the app, so its resources go straight into
+    /// the main bundle and `Bundle.module` is never synthesised -- referencing
+    /// it there is a compile error. Searching at runtime cannot guess wrong.
+    private static func findLevelsJSON() -> URL? {
+        // 1. The Xcode app bundle, and Swift Playgrounds app targets too.
+        if let url = Bundle.main.url(forResource: "levels", withExtension: "json") {
+            return url
+        }
+
+        // 2. A real SwiftPM resource bundle sitting beside the executable.
+        let neighbours = (try? FileManager.default.contentsOfDirectory(
+            at: Bundle.main.bundleURL,
+            includingPropertiesForKeys: nil
+        )) ?? []
+        for neighbour in neighbours where neighbour.pathExtension == "bundle" {
+            if let bundle = Bundle(url: neighbour),
+               let url = bundle.url(forResource: "levels", withExtension: "json") {
+                return url
+            }
+        }
+
+        // 3. Anything else that happens to be loaded.
+        for bundle in Bundle.allBundles {
+            if let url = bundle.url(forResource: "levels", withExtension: "json") {
+                return url
+            }
+        }
+
+        return nil
     }
 
     private static func loadLevels() -> [Level] {
-        let url = resourceBundles.lazy
-            .compactMap { $0.url(forResource: "levels", withExtension: "json") }
-            .first
-
-        guard let url else {
+        guard let url = findLevelsJSON() else {
             assertionFailure("levels.json is not in any bundle we can see")
             return []
         }

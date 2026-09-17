@@ -8,7 +8,34 @@ read aloud. There is no fail state, no timer and no way to lose.
 
 ---
 
-## Build it
+## Build it on an iPad (no Mac needed)
+
+`CrosswordBonanza.swiftpm` is a Swift Playgrounds app package. Get that folder
+onto the iPad — Files, iCloud Drive, or a git client like Working Copy — then tap
+it. Swift Playgrounds opens it and the **Run** button builds and runs the game on
+the iPad itself.
+
+Requires **Swift Playgrounds 4.4 or newer**: the app uses `@Observable`, which
+needs the iOS 17 SDK. On an older Swift Playgrounds it will fail to compile, and
+the errors will look like code bugs when they are a tooling version problem.
+
+Three things genuinely cannot be tested this way, and none of them is a bug:
+
+- **Haptics do nothing on iPad.** Only iPhones have a Taptic Engine, so every
+  `Haptics` call is a silent no-op there.
+- **No simulator.** The game runs full screen on the iPad, so only the iPad
+  layout gets exercised — iPhone SE crowding stays unverified.
+- **No hardware mute switch.** Use silent mode in Control Centre instead; the
+  `.ambient` audio session honours it.
+
+The package is **generated**. `CrosswordBonanza/` is the source of truth:
+
+```bash
+python3 Tools/make_swiftpm.py          # regenerate after changing any source
+python3 Tools/make_swiftpm.py --check  # fails if the two have drifted apart
+```
+
+## Build it on a Mac
 
 ```bash
 open CrosswordBonanza.xcodeproj    # needs Xcode 16 or newer
@@ -86,6 +113,7 @@ level in `UserDefaults`. Nothing about the child leaves the device.
 ## Project layout
 
 ```
+CrosswordBonanza.swiftpm/                generated iPad build -- do not edit
 CrosswordBonanza/
   App/      entry point, routing, AppModel (owns navigation, sound and progress)
   Model/    Level + levels.json decoding, PuzzleEngine, ProgressStore
@@ -111,6 +139,7 @@ python3 Tools/generate_levels.py --show   # ... and print every grid as ASCII
 python3 Tools/validate_levels.py     # re-derive and check every grid
 python3 Tools/simulate_play.py       # play all 30 levels through the engine rules
 python3 Tools/check_project.py       # structural check of the .xcodeproj
+python3 Tools/make_swiftpm.py --check     # iPad package is in sync with the sources
 ```
 
 Generation is deterministic — a fixed seed per level means re-running produces

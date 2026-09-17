@@ -167,14 +167,30 @@ def check_assets(problems):
             problems.append(f"{os.path.relpath(path, ROOT)} is not valid JSON: {error}")
 
 
+def is_inside(path, directory):
+    """True if `path` is `directory` or sits under it.
+
+    Deliberately not `startswith`: that would treat CrosswordBonanza.swiftpm/ as
+    being inside CrosswordBonanza/, because one string is a prefix of the other.
+    """
+    return os.path.commonpath([os.path.abspath(path), os.path.abspath(directory)]) == \
+        os.path.abspath(directory)
+
+
 def check_sources(problems):
-    """Every Swift file must sit inside the synchronized folder, or the target
-    will silently not compile it."""
+    """Every Swift file must sit inside the synchronized folder, or the Xcode
+    target will silently not compile it.
+
+    The one sanctioned exception is the generated Swift Playgrounds mirror, whose
+    contents are checked by Tools/make_swiftpm.py --check instead.
+    """
     app_root = os.path.join(ROOT, "CrosswordBonanza")
+    swiftpm_root = os.path.join(ROOT, "CrosswordBonanza.swiftpm")
+
     stray = []
     for dirpath, dirnames, filenames in os.walk(ROOT):
         dirnames[:] = [d for d in dirnames if d not in {".git", ".build", "DerivedData"}]
-        if dirpath.startswith(app_root):
+        if is_inside(dirpath, app_root) or is_inside(dirpath, swiftpm_root):
             continue
         for name in filenames:
             if name.endswith(".swift"):
@@ -182,6 +198,22 @@ def check_sources(problems):
     for path in stray:
         problems.append(f"{path} is outside CrosswordBonanza/ so it will not be compiled")
 
+    if os.path.isdir(swiftpm_root):
+        manifest = os.path.join(swiftpm_root, "Package.swift")
+        if not os.path.exists(manifest):
+            problems.append("CrosswordBonanza.swiftpm/ has no Package.swift")
+        else:
+            with open(manifest, encoding="utf-8") as handle:
+                text = handle.read()
+            for needed in ("import AppleProductTypes", ".iOSApplication("):
+                if needed not in text:
+                    problems.append(f"Package.swift is missing {needed}")
+            for open_char, close_char in (("(", ")"), ("[", "]")):
+                if text.count(open_char) != text.count(close_char):
+                    problems.append(f"Package.swift has unbalanced {open_char}{close_char}")
+
+    # Exactly one @main, counted in the source of truth only -- the mirror
+    # carries a copy of it and would otherwise double the count.
     entry_points = []
     for dirpath, _, filenames in os.walk(app_root):
         for name in filenames:

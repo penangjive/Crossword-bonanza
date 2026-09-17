@@ -1,0 +1,1721 @@
+{
+  "version": 1,
+  "levels": [
+    {
+      "id": 1,
+      "tier": 1,
+      "rows": 3,
+      "cols": 3,
+      "entries": [
+        {
+          "word": "FAN",
+          "row": 0,
+          "col": 1,
+          "direction": "down",
+          "emoji": "🪃",
+          "clue": "It spins around to make you cool",
+          "spoken": "Fan"
+        },
+        {
+          "word": "MAP",
+          "row": 1,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🗺",
+          "clue": "It shows you where to go",
+          "spoken": "Map"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "tier": 1,
+      "rows": 4,
+      "cols": 4,
+      "entries": [
+        {
+          "word": "SOCK",
+          "row": 0,
+          "col": 0,
+          "direction": "down",
+          "emoji": "🧦",
+          "clue": "You pull it onto your foot before your shoe",
+          "spoken": "Sock"
+        },
+        {
+          "word": "KITE",
+          "row": 3,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🪁",
+          "clue": "You fly it on a string on a windy day",
+          "spoken": "Kite"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "tier": 1,
+      "rows": 4,
+      "cols": 3,
+      "entries": [
+        {
+          "word": "MAP",
+          "row": 0,
+          "col": 2,
+          "direction": "down",
+          "emoji": "🗺",
+          "clue": "It shows you where to go",
+          "spoken": "Map"
+        },
+        {
+          "word": "ICE",
+          "row": 1,
+          "col": 0,
+          "direction": "down",
+          "emoji": "🧊",
+          "clue": "Frozen water that is very cold",
+          "spoken": "Ice"
+        },
+        {
+          "word": "CUP",
+          "row": 2,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🥤",
+          "clue": "You drink out of it",
+          "spoken": "Cup"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "tier": 1,
+      "rows": 4,
+      "cols": 4,
+      "entries": [
+        {
+          "word": "BEAR",
+          "row": 0,
+          "col": 3,
+          "direction": "down",
+          "emoji": "🐻",
+          "clue": "A big furry animal that loves honey",
+          "spoken": "Bear"
+        },
+        {
+          "word": "TREE",
+          "row": 1,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🌳",
+          "clue": "It is tall with branches and leaves",
+          "spoken": "Tree"
+        },
+        {
+          "word": "DOOR",
+          "row": 3,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🚪",
+          "clue": "You open it to walk into a room",
+          "spoken": "Door"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "tier": 1,
+      "rows": 4,
+      "cols": 4,
+      "entries": [
+        {
+          "word": "DEER",
+          "row": 0,
+          "col": 3,
+          "direction": "down",
+          "emoji": "🦌",
+          "clue": "A gentle forest animal with antlers",
+          "spoken": "Deer"
+        },
+        {
+          "word": "BIKE",
+          "row": 1,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🚲",
+          "clue": "It has two wheels and you pedal it",
+          "spoken": "Bike"
+        },
+        {
+          "word": "DOOR",
+          "row": 3,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🚪",
+          "clue": "You open it to walk into a room",
+          "spoken": "Door"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "tier": 1,
+      "rows": 4,
+      "cols": 5,
+      "entries": [
+        {
+          "word": "BED",
+          "row": 0,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🛏",
+          "clue": "You sleep in it at night",
+          "spoken": "Bed"
+        },
+        {
+          "word": "DEER",
+          "row": 0,
+          "col": 2,
+          "direction": "down",
+          "emoji": "🦌",
+          "clue": "A gentle forest animal with antlers",
+          "spoken": "Deer"
+        },
+        {
+          "word": "BALL",
+          "row": 0,
+          "col": 4,
+          "direction": "down",
+          "emoji": "⚽",
+          "clue": "You kick it, throw it, or bounce it",
+          "spoken": "Ball"
+        },
+        {
+          "word": "SEAL",
+          "row": 2,
+          "col": 1,
+          "direction": "across",
+          "emoji": "🦭",
+          "clue": "A smooth sea animal that claps its flippers",
+          "spoken": "Seal"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "tier": 1,
+      "rows": 5,
+      "cols": 4,
+      "entries": [
+        {
+          "word": "RING",
+          "row": 0,
+          "col": 0,
+          "direction": "across",
+          "emoji": "💍",
+          "clue": "A round band you wear on your finger",
+          "spoken": "Ring"
+        },
+        {
+          "word": "NEST",
+          "row": 0,
+          "col": 2,
+          "direction": "down",
+          "emoji": "🪹",
+          "clue": "A bird builds this home out of twigs",
+          "spoken": "Nest"
+        },
+        {
+          "word": "FISH",
+          "row": 2,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🐟",
+          "clue": "It swims in the water and has fins",
+          "spoken": "Fish"
+        },
+        {
+          "word": "FOX",
+          "row": 2,
+          "col": 0,
+          "direction": "down",
+          "emoji": "🦊",
+          "clue": "An orange animal with a bushy tail",
+          "spoken": "Fox"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "tier": 1,
+      "rows": 5,
+      "cols": 5,
+      "entries": [
+        {
+          "word": "SALT",
+          "row": 0,
+          "col": 1,
+          "direction": "across",
+          "emoji": "🧂",
+          "clue": "White grains you shake onto your dinner",
+          "spoken": "Salt"
+        },
+        {
+          "word": "SHOE",
+          "row": 0,
+          "col": 1,
+          "direction": "down",
+          "emoji": "👟",
+          "clue": "You wear it on your foot to go outside",
+          "spoken": "Shoe"
+        },
+        {
+          "word": "SOUP",
+          "row": 2,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🍲",
+          "clue": "A hot dinner you eat with a spoon",
+          "spoken": "Soup"
+        },
+        {
+          "word": "PEN",
+          "row": 2,
+          "col": 3,
+          "direction": "down",
+          "emoji": "🖊",
+          "clue": "You write with it",
+          "spoken": "Pen"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "tier": 1,
+      "rows": 5,
+      "cols": 4,
+      "entries": [
+        {
+          "word": "HAND",
+          "row": 0,
+          "col": 0,
+          "direction": "across",
+          "emoji": "✋",
+          "clue": "It has five fingers",
+          "spoken": "Hand"
+        },
+        {
+          "word": "DOOR",
+          "row": 0,
+          "col": 3,
+          "direction": "down",
+          "emoji": "🚪",
+          "clue": "You open it to walk into a room",
+          "spoken": "Door"
+        },
+        {
+          "word": "KEY",
+          "row": 2,
+          "col": 1,
+          "direction": "down",
+          "emoji": "🔑",
+          "clue": "This little thing opens a lock",
+          "spoken": "Key"
+        },
+        {
+          "word": "BEAR",
+          "row": 3,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🐻",
+          "clue": "A big furry animal that loves honey",
+          "spoken": "Bear"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "tier": 1,
+      "rows": 5,
+      "cols": 5,
+      "entries": [
+        {
+          "word": "GOAT",
+          "row": 0,
+          "col": 2,
+          "direction": "down",
+          "emoji": "🐐",
+          "clue": "A farm animal with horns that eats grass",
+          "spoken": "Goat"
+        },
+        {
+          "word": "SEAL",
+          "row": 0,
+          "col": 4,
+          "direction": "down",
+          "emoji": "🦭",
+          "clue": "A smooth sea animal that claps its flippers",
+          "spoken": "Seal"
+        },
+        {
+          "word": "NOSE",
+          "row": 1,
+          "col": 1,
+          "direction": "across",
+          "emoji": "👃",
+          "clue": "You smell with it",
+          "spoken": "Nose"
+        },
+        {
+          "word": "ANT",
+          "row": 2,
+          "col": 0,
+          "direction": "down",
+          "emoji": "🐜",
+          "clue": "A tiny insect that lives in a hill",
+          "spoken": "Ant"
+        },
+        {
+          "word": "NET",
+          "row": 3,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🥅",
+          "clue": "You catch a ball or a fish with it",
+          "spoken": "Net"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "tier": 2,
+      "rows": 6,
+      "cols": 5,
+      "entries": [
+        {
+          "word": "TIGER",
+          "row": 0,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🐯",
+          "clue": "A big orange cat with black stripes",
+          "spoken": "A big orange cat with black stripes"
+        },
+        {
+          "word": "TEETH",
+          "row": 0,
+          "col": 0,
+          "direction": "down",
+          "emoji": "🦷",
+          "clue": "You chew your food with them",
+          "spoken": "You chew your food with them"
+        },
+        {
+          "word": "ROBOT",
+          "row": 0,
+          "col": 4,
+          "direction": "down",
+          "emoji": "🤖",
+          "clue": "A metal helper made of machines",
+          "spoken": "A metal helper made of machines"
+        },
+        {
+          "word": "PEAR",
+          "row": 2,
+          "col": 2,
+          "direction": "down",
+          "emoji": "🍐",
+          "clue": "A green fruit shaped like a bell",
+          "spoken": "A green fruit shaped like a bell"
+        },
+        {
+          "word": "HEART",
+          "row": 4,
+          "col": 0,
+          "direction": "across",
+          "emoji": "❤",
+          "clue": "It beats inside your chest",
+          "spoken": "It beats inside your chest"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "tier": 2,
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        {
+          "word": "EAGLE",
+          "row": 0,
+          "col": 0,
+          "direction": "down",
+          "emoji": "🦅",
+          "clue": "A huge bird with a sharp curved beak",
+          "spoken": "A huge bird with a sharp curved beak"
+        },
+        {
+          "word": "CLOCK",
+          "row": 0,
+          "col": 2,
+          "direction": "down",
+          "emoji": "🕑",
+          "clue": "Its hands tell you the time",
+          "spoken": "Its hands tell you the time"
+        },
+        {
+          "word": "MELON",
+          "row": 1,
+          "col": 4,
+          "direction": "down",
+          "emoji": "🍈",
+          "clue": "A big juicy fruit with lots of seeds",
+          "spoken": "A big juicy fruit with lots of seeds"
+        },
+        {
+          "word": "GOOSE",
+          "row": 2,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🪿",
+          "clue": "A big noisy bird that honks",
+          "spoken": "A big noisy bird that honks"
+        },
+        {
+          "word": "ANT",
+          "row": 5,
+          "col": 3,
+          "direction": "across",
+          "emoji": "🐜",
+          "clue": "A tiny insect that lives in a hill",
+          "spoken": "A tiny insect that lives in a hill"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "tier": 2,
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        {
+          "word": "MUSIC",
+          "row": 0,
+          "col": 0,
+          "direction": "down",
+          "emoji": "🎵",
+          "clue": "Sounds and songs you listen to",
+          "spoken": "Sounds and songs you listen to"
+        },
+        {
+          "word": "LAMP",
+          "row": 0,
+          "col": 4,
+          "direction": "down",
+          "emoji": "💡",
+          "clue": "You switch it on to make light",
+          "spoken": "You switch it on to make light"
+        },
+        {
+          "word": "HOUSE",
+          "row": 1,
+          "col": 2,
+          "direction": "down",
+          "emoji": "🏠",
+          "clue": "A building where a family lives",
+          "spoken": "A building where a family lives"
+        },
+        {
+          "word": "STORM",
+          "row": 2,
+          "col": 0,
+          "direction": "across",
+          "emoji": "⛈",
+          "clue": "Wild weather with wind and thunder",
+          "spoken": "Wild weather with wind and thunder"
+        },
+        {
+          "word": "BEACH",
+          "row": 5,
+          "col": 1,
+          "direction": "across",
+          "emoji": "🏖",
+          "clue": "The sandy place beside the sea",
+          "spoken": "The sandy place beside the sea"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "tier": 2,
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        {
+          "word": "TEETH",
+          "row": 0,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🦷",
+          "clue": "You chew your food with them",
+          "spoken": "You chew your food with them"
+        },
+        {
+          "word": "HOUSE",
+          "row": 0,
+          "col": 4,
+          "direction": "down",
+          "emoji": "🏠",
+          "clue": "A building where a family lives",
+          "spoken": "A building where a family lives"
+        },
+        {
+          "word": "CLOUD",
+          "row": 2,
+          "col": 1,
+          "direction": "across",
+          "emoji": "☁",
+          "clue": "A fluffy white shape floating in the sky",
+          "spoken": "A fluffy white shape floating in the sky"
+        },
+        {
+          "word": "LION",
+          "row": 2,
+          "col": 2,
+          "direction": "down",
+          "emoji": "🦁",
+          "clue": "The big cat that roars and has a mane",
+          "spoken": "The big cat that roars and has a mane"
+        },
+        {
+          "word": "EGG",
+          "row": 3,
+          "col": 0,
+          "direction": "down",
+          "emoji": "🥚",
+          "clue": "A hen lays this",
+          "spoken": "A hen lays this"
+        },
+        {
+          "word": "GOOSE",
+          "row": 4,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🪿",
+          "clue": "A big noisy bird that honks",
+          "spoken": "A big noisy bird that honks"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "tier": 2,
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        {
+          "word": "BUS",
+          "row": 0,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🚌",
+          "clue": "A long vehicle that carries lots of people",
+          "spoken": "A long vehicle that carries lots of people"
+        },
+        {
+          "word": "BIKE",
+          "row": 0,
+          "col": 0,
+          "direction": "down",
+          "emoji": "🚲",
+          "clue": "It has two wheels and you pedal it",
+          "spoken": "It has two wheels and you pedal it"
+        },
+        {
+          "word": "SHARK",
+          "row": 0,
+          "col": 2,
+          "direction": "down",
+          "emoji": "🦈",
+          "clue": "A sea animal with lots of sharp teeth",
+          "spoken": "A sea animal with lots of sharp teeth"
+        },
+        {
+          "word": "PANDA",
+          "row": 1,
+          "col": 4,
+          "direction": "down",
+          "emoji": "🐼",
+          "clue": "A black and white bear that eats bamboo",
+          "spoken": "A black and white bear that eats bamboo"
+        },
+        {
+          "word": "KOALA",
+          "row": 2,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🐨",
+          "clue": "A grey animal that hugs a tree all day",
+          "spoken": "A grey animal that hugs a tree all day"
+        },
+        {
+          "word": "BAG",
+          "row": 5,
+          "col": 3,
+          "direction": "across",
+          "emoji": "🎒",
+          "clue": "You carry your things inside it",
+          "spoken": "You carry your things inside it"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "tier": 2,
+      "rows": 5,
+      "cols": 6,
+      "entries": [
+        {
+          "word": "MILK",
+          "row": 0,
+          "col": 0,
+          "direction": "down",
+          "emoji": "🥛",
+          "clue": "A white drink that comes from a cow",
+          "spoken": "A white drink that comes from a cow"
+        },
+        {
+          "word": "SOUP",
+          "row": 0,
+          "col": 2,
+          "direction": "across",
+          "emoji": "🍲",
+          "clue": "A hot dinner you eat with a spoon",
+          "spoken": "A hot dinner you eat with a spoon"
+        },
+        {
+          "word": "STONE",
+          "row": 0,
+          "col": 2,
+          "direction": "down",
+          "emoji": "🪨",
+          "clue": "A hard grey lump you find on the ground",
+          "spoken": "A hard grey lump you find on the ground"
+        },
+        {
+          "word": "PANDA",
+          "row": 0,
+          "col": 5,
+          "direction": "down",
+          "emoji": "🐼",
+          "clue": "A black and white bear that eats bamboo",
+          "spoken": "A black and white bear that eats bamboo"
+        },
+        {
+          "word": "LION",
+          "row": 2,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🦁",
+          "clue": "The big cat that roars and has a mane",
+          "spoken": "The big cat that roars and has a mane"
+        },
+        {
+          "word": "ZEBRA",
+          "row": 4,
+          "col": 1,
+          "direction": "across",
+          "emoji": "🦓",
+          "clue": "A horse-like animal with stripes",
+          "spoken": "A horse-like animal with stripes"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "tier": 2,
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        {
+          "word": "PURPLE",
+          "row": 0,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🟣",
+          "clue": "The colour you get mixing red and blue",
+          "spoken": "The colour you get mixing red and blue"
+        },
+        {
+          "word": "PARROT",
+          "row": 0,
+          "col": 0,
+          "direction": "down",
+          "emoji": "🦜",
+          "clue": "A colourful bird that copies what you say",
+          "spoken": "A colourful bird that copies what you say"
+        },
+        {
+          "word": "PENCIL",
+          "row": 0,
+          "col": 3,
+          "direction": "down",
+          "emoji": "✏",
+          "clue": "You draw with it and rub out your mistakes",
+          "spoken": "You draw with it and rub out your mistakes"
+        },
+        {
+          "word": "EAGLE",
+          "row": 0,
+          "col": 5,
+          "direction": "down",
+          "emoji": "🦅",
+          "clue": "A huge bird with a sharp curved beak",
+          "spoken": "A huge bird with a sharp curved beak"
+        },
+        {
+          "word": "RAIN",
+          "row": 2,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🌧",
+          "clue": "Water that falls down from the clouds",
+          "spoken": "Water that falls down from the clouds"
+        },
+        {
+          "word": "KITE",
+          "row": 4,
+          "col": 2,
+          "direction": "across",
+          "emoji": "🪁",
+          "clue": "You fly it on a string on a windy day",
+          "spoken": "You fly it on a string on a windy day"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "tier": 2,
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        {
+          "word": "CANDY",
+          "row": 0,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🍬",
+          "clue": "A sugary sweet in a wrapper",
+          "spoken": "A sugary sweet in a wrapper"
+        },
+        {
+          "word": "CARROT",
+          "row": 0,
+          "col": 0,
+          "direction": "down",
+          "emoji": "🥕",
+          "clue": "A long orange vegetable that rabbits love",
+          "spoken": "A long orange vegetable that rabbits love"
+        },
+        {
+          "word": "DRAGON",
+          "row": 0,
+          "col": 3,
+          "direction": "down",
+          "emoji": "🐉",
+          "clue": "A make-believe beast that breathes fire",
+          "spoken": "A make-believe beast that breathes fire"
+        },
+        {
+          "word": "SNAIL",
+          "row": 1,
+          "col": 5,
+          "direction": "down",
+          "emoji": "🐌",
+          "clue": "A slow creature that carries its shell",
+          "spoken": "A slow creature that carries its shell"
+        },
+        {
+          "word": "RING",
+          "row": 3,
+          "col": 0,
+          "direction": "across",
+          "emoji": "💍",
+          "clue": "A round band you wear on your finger",
+          "spoken": "A round band you wear on your finger"
+        },
+        {
+          "word": "TUNNEL",
+          "row": 5,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🚇",
+          "clue": "A long hole dug right through a hill",
+          "spoken": "A long hole dug right through a hill"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "tier": 2,
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        {
+          "word": "GUITAR",
+          "row": 0,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🎸",
+          "clue": "You strum its six strings to make music",
+          "spoken": "You strum its six strings to make music"
+        },
+        {
+          "word": "GARDEN",
+          "row": 0,
+          "col": 0,
+          "direction": "down",
+          "emoji": "🌻",
+          "clue": "A patch of ground where plants grow",
+          "spoken": "A patch of ground where plants grow"
+        },
+        {
+          "word": "ISLAND",
+          "row": 0,
+          "col": 2,
+          "direction": "down",
+          "emoji": "🏝",
+          "clue": "Land with water all the way around it",
+          "spoken": "Land with water all the way around it"
+        },
+        {
+          "word": "RAIN",
+          "row": 0,
+          "col": 5,
+          "direction": "down",
+          "emoji": "🌧",
+          "clue": "Water that falls down from the clouds",
+          "spoken": "Water that falls down from the clouds"
+        },
+        {
+          "word": "DRAGON",
+          "row": 3,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🐉",
+          "clue": "A make-believe beast that breathes fire",
+          "spoken": "A make-believe beast that breathes fire"
+        },
+        {
+          "word": "DEER",
+          "row": 5,
+          "col": 2,
+          "direction": "across",
+          "emoji": "🦌",
+          "clue": "A gentle forest animal with antlers",
+          "spoken": "A gentle forest animal with antlers"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "tier": 2,
+      "rows": 6,
+      "cols": 6,
+      "entries": [
+        {
+          "word": "STAR",
+          "row": 0,
+          "col": 0,
+          "direction": "across",
+          "emoji": "⭐",
+          "clue": "It twinkles high in the night sky",
+          "spoken": "It twinkles high in the night sky"
+        },
+        {
+          "word": "TEAPOT",
+          "row": 0,
+          "col": 1,
+          "direction": "down",
+          "emoji": "🫖",
+          "clue": "You pour a hot drink out of its spout",
+          "spoken": "You pour a hot drink out of its spout"
+        },
+        {
+          "word": "MITTEN",
+          "row": 0,
+          "col": 5,
+          "direction": "down",
+          "emoji": "🧤",
+          "clue": "A warm cover for your hand in the snow",
+          "spoken": "A warm cover for your hand in the snow"
+        },
+        {
+          "word": "RABBIT",
+          "row": 2,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🐰",
+          "clue": "A fluffy animal with long ears that hops",
+          "spoken": "A fluffy animal with long ears that hops"
+        },
+        {
+          "word": "BIKE",
+          "row": 2,
+          "col": 3,
+          "direction": "down",
+          "emoji": "🚲",
+          "clue": "It has two wheels and you pedal it",
+          "spoken": "It has two wheels and you pedal it"
+        },
+        {
+          "word": "COOKIE",
+          "row": 4,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🍪",
+          "clue": "A sweet round biscuit with chips in it",
+          "spoken": "A sweet round biscuit with chips in it"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "tier": 3,
+      "rows": 7,
+      "cols": 7,
+      "entries": [
+        {
+          "word": "ORANGE",
+          "row": 0,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🍊",
+          "clue": "A round juicy fruit the colour of its name",
+          "spoken": "A round juicy fruit the colour of its name"
+        },
+        {
+          "word": "ROOSTER",
+          "row": 0,
+          "col": 1,
+          "direction": "down",
+          "emoji": "🐓",
+          "clue": "The farm bird that crows in the morning",
+          "spoken": "The farm bird that crows in the morning"
+        },
+        {
+          "word": "NOSE",
+          "row": 0,
+          "col": 3,
+          "direction": "down",
+          "emoji": "👃",
+          "clue": "You smell with it",
+          "spoken": "You smell with it"
+        },
+        {
+          "word": "TRUCK",
+          "row": 1,
+          "col": 6,
+          "direction": "down",
+          "emoji": "🚚",
+          "clue": "A big vehicle that carries heavy loads",
+          "spoken": "A big vehicle that carries heavy loads"
+        },
+        {
+          "word": "MONSTER",
+          "row": 2,
+          "col": 0,
+          "direction": "across",
+          "emoji": "👾",
+          "clue": "A make-believe creature in a story",
+          "spoken": "A make-believe creature in a story"
+        },
+        {
+          "word": "PEACOCK",
+          "row": 5,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🦚",
+          "clue": "A bird that fans out a huge bright tail",
+          "spoken": "A bird that fans out a huge bright tail"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "tier": 3,
+      "rows": 7,
+      "cols": 7,
+      "entries": [
+        {
+          "word": "VOLCANO",
+          "row": 0,
+          "col": 1,
+          "direction": "down",
+          "emoji": "🌋",
+          "clue": "A mountain that shoots out hot lava",
+          "spoken": "A mountain that shoots out hot lava"
+        },
+        {
+          "word": "STONE",
+          "row": 0,
+          "col": 4,
+          "direction": "down",
+          "emoji": "🪨",
+          "clue": "A hard grey lump you find on the ground",
+          "spoken": "A hard grey lump you find on the ground"
+        },
+        {
+          "word": "CRAYONS",
+          "row": 0,
+          "col": 6,
+          "direction": "down",
+          "emoji": "🖍",
+          "clue": "Coloured wax sticks for drawing",
+          "spoken": "Coloured wax sticks for drawing"
+        },
+        {
+          "word": "MONSTER",
+          "row": 1,
+          "col": 0,
+          "direction": "across",
+          "emoji": "👾",
+          "clue": "A make-believe creature in a story",
+          "spoken": "A make-believe creature in a story"
+        },
+        {
+          "word": "EAGLE",
+          "row": 4,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🦅",
+          "clue": "A huge bird with a sharp curved beak",
+          "spoken": "A huge bird with a sharp curved beak"
+        },
+        {
+          "word": "COMPASS",
+          "row": 6,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🧭",
+          "clue": "Its needle always points north",
+          "spoken": "Its needle always points north"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "tier": 3,
+      "rows": 7,
+      "cols": 7,
+      "entries": [
+        {
+          "word": "BALLOON",
+          "row": 0,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🎈",
+          "clue": "You blow it up and it floats away",
+          "spoken": "You blow it up and it floats away"
+        },
+        {
+          "word": "BLANKET",
+          "row": 0,
+          "col": 0,
+          "direction": "down",
+          "emoji": "🧶",
+          "clue": "A soft cover that keeps you warm in bed",
+          "spoken": "A soft cover that keeps you warm in bed"
+        },
+        {
+          "word": "LANTERN",
+          "row": 0,
+          "col": 3,
+          "direction": "down",
+          "emoji": "🏮",
+          "clue": "A little lamp you carry in the dark",
+          "spoken": "A little lamp you carry in the dark"
+        },
+        {
+          "word": "NOSE",
+          "row": 2,
+          "col": 3,
+          "direction": "across",
+          "emoji": "👃",
+          "clue": "You smell with it",
+          "spoken": "You smell with it"
+        },
+        {
+          "word": "SNAIL",
+          "row": 2,
+          "col": 5,
+          "direction": "down",
+          "emoji": "🐌",
+          "clue": "A slow creature that carries its shell",
+          "spoken": "A slow creature that carries its shell"
+        },
+        {
+          "word": "NEST",
+          "row": 3,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🪹",
+          "clue": "A bird builds this home out of twigs",
+          "spoken": "A bird builds this home out of twigs"
+        },
+        {
+          "word": "TUNNEL",
+          "row": 6,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🚇",
+          "clue": "A long hole dug right through a hill",
+          "spoken": "A long hole dug right through a hill"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "tier": 3,
+      "rows": 7,
+      "cols": 7,
+      "entries": [
+        {
+          "word": "CAVE",
+          "row": 0,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🗻",
+          "clue": "A dark hole in the side of a hill",
+          "spoken": "A dark hole in the side of a hill"
+        },
+        {
+          "word": "VOLCANO",
+          "row": 0,
+          "col": 2,
+          "direction": "down",
+          "emoji": "🌋",
+          "clue": "A mountain that shoots out hot lava",
+          "spoken": "A mountain that shoots out hot lava"
+        },
+        {
+          "word": "ROBOT",
+          "row": 1,
+          "col": 4,
+          "direction": "down",
+          "emoji": "🤖",
+          "clue": "A metal helper made of machines",
+          "spoken": "A metal helper made of machines"
+        },
+        {
+          "word": "SNAKE",
+          "row": 1,
+          "col": 6,
+          "direction": "down",
+          "emoji": "🐍",
+          "clue": "A long animal with no legs that hisses",
+          "spoken": "A long animal with no legs that hisses"
+        },
+        {
+          "word": "BALLOON",
+          "row": 2,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🎈",
+          "clue": "You blow it up and it floats away",
+          "spoken": "You blow it up and it floats away"
+        },
+        {
+          "word": "PEACOCK",
+          "row": 4,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🦚",
+          "clue": "A bird that fans out a huge bright tail",
+          "spoken": "A bird that fans out a huge bright tail"
+        },
+        {
+          "word": "DOOR",
+          "row": 6,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🚪",
+          "clue": "You open it to walk into a room",
+          "spoken": "You open it to walk into a room"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "tier": 3,
+      "rows": 7,
+      "cols": 7,
+      "entries": [
+        {
+          "word": "POPCORN",
+          "row": 0,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🍿",
+          "clue": "Corn that goes pop and puffs up white",
+          "spoken": "Corn that goes pop and puffs up white"
+        },
+        {
+          "word": "PYJAMAS",
+          "row": 0,
+          "col": 0,
+          "direction": "down",
+          "emoji": "👗",
+          "clue": "The soft clothes you wear to bed",
+          "spoken": "The soft clothes you wear to bed"
+        },
+        {
+          "word": "CRAYONS",
+          "row": 0,
+          "col": 3,
+          "direction": "down",
+          "emoji": "🖍",
+          "clue": "Coloured wax sticks for drawing",
+          "spoken": "Coloured wax sticks for drawing"
+        },
+        {
+          "word": "RING",
+          "row": 0,
+          "col": 5,
+          "direction": "down",
+          "emoji": "💍",
+          "clue": "A round band you wear on your finger",
+          "spoken": "A round band you wear on your finger"
+        },
+        {
+          "word": "PAINT",
+          "row": 2,
+          "col": 2,
+          "direction": "across",
+          "emoji": "🎨",
+          "clue": "Coloured liquid you brush onto paper",
+          "spoken": "Coloured liquid you brush onto paper"
+        },
+        {
+          "word": "MELON",
+          "row": 4,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🍈",
+          "clue": "A big juicy fruit with lots of seeds",
+          "spoken": "A big juicy fruit with lots of seeds"
+        },
+        {
+          "word": "SOUP",
+          "row": 6,
+          "col": 3,
+          "direction": "across",
+          "emoji": "🍲",
+          "clue": "A hot dinner you eat with a spoon",
+          "spoken": "A hot dinner you eat with a spoon"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "tier": 3,
+      "rows": 8,
+      "cols": 8,
+      "entries": [
+        {
+          "word": "SQUIRREL",
+          "row": 0,
+          "col": 7,
+          "direction": "down",
+          "emoji": "🐿",
+          "clue": "A bushy-tailed animal that hides nuts",
+          "spoken": "A bushy-tailed animal that hides nuts"
+        },
+        {
+          "word": "SPOON",
+          "row": 1,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🥄",
+          "clue": "You eat your soup with it",
+          "spoken": "You eat your soup with it"
+        },
+        {
+          "word": "SANDALS",
+          "row": 1,
+          "col": 0,
+          "direction": "down",
+          "emoji": "👡",
+          "clue": "Open shoes you wear in hot weather",
+          "spoken": "Open shoes you wear in hot weather"
+        },
+        {
+          "word": "OCTOPUS",
+          "row": 1,
+          "col": 3,
+          "direction": "down",
+          "emoji": "🐙",
+          "clue": "A sea creature with eight long arms",
+          "spoken": "A sea creature with eight long arms"
+        },
+        {
+          "word": "HEART",
+          "row": 2,
+          "col": 5,
+          "direction": "down",
+          "emoji": "❤",
+          "clue": "It beats inside your chest",
+          "spoken": "It beats inside your chest"
+        },
+        {
+          "word": "DINOSAUR",
+          "row": 4,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🦖",
+          "clue": "A giant reptile from long, long ago",
+          "spoken": "A giant reptile from long, long ago"
+        },
+        {
+          "word": "TURTLE",
+          "row": 6,
+          "col": 2,
+          "direction": "across",
+          "emoji": "🐢",
+          "clue": "A slow animal with a hard shell",
+          "spoken": "A slow animal with a hard shell"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "tier": 3,
+      "rows": 8,
+      "cols": 8,
+      "entries": [
+        {
+          "word": "PEAR",
+          "row": 0,
+          "col": 0,
+          "direction": "down",
+          "emoji": "🍐",
+          "clue": "A green fruit shaped like a bell",
+          "spoken": "A green fruit shaped like a bell"
+        },
+        {
+          "word": "PEACOCK",
+          "row": 0,
+          "col": 2,
+          "direction": "down",
+          "emoji": "🦚",
+          "clue": "A bird that fans out a huge bright tail",
+          "spoken": "A bird that fans out a huge bright tail"
+        },
+        {
+          "word": "SNAKE",
+          "row": 0,
+          "col": 6,
+          "direction": "down",
+          "emoji": "🐍",
+          "clue": "A long animal with no legs that hisses",
+          "spoken": "A long animal with no legs that hisses"
+        },
+        {
+          "word": "ELEPHANT",
+          "row": 1,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🐘",
+          "clue": "A huge grey animal with a long trunk",
+          "spoken": "A huge grey animal with a long trunk"
+        },
+        {
+          "word": "HAMSTER",
+          "row": 1,
+          "col": 4,
+          "direction": "down",
+          "emoji": "🐹",
+          "clue": "A tiny pet that runs on a wheel",
+          "spoken": "A tiny pet that runs on a wheel"
+        },
+        {
+          "word": "MONSTER",
+          "row": 4,
+          "col": 1,
+          "direction": "across",
+          "emoji": "👾",
+          "clue": "A make-believe creature in a story",
+          "spoken": "A make-believe creature in a story"
+        },
+        {
+          "word": "RAIN",
+          "row": 4,
+          "col": 7,
+          "direction": "down",
+          "emoji": "🌧",
+          "clue": "Water that falls down from the clouds",
+          "spoken": "Water that falls down from the clouds"
+        },
+        {
+          "word": "TRAIN",
+          "row": 7,
+          "col": 3,
+          "direction": "across",
+          "emoji": "🚂",
+          "clue": "A long vehicle that runs on rails",
+          "spoken": "A long vehicle that runs on rails"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "tier": 3,
+      "rows": 8,
+      "cols": 8,
+      "entries": [
+        {
+          "word": "BLANKET",
+          "row": 0,
+          "col": 0,
+          "direction": "down",
+          "emoji": "🧶",
+          "clue": "A soft cover that keeps you warm in bed",
+          "spoken": "A soft cover that keeps you warm in bed"
+        },
+        {
+          "word": "MONSTER",
+          "row": 0,
+          "col": 2,
+          "direction": "down",
+          "emoji": "👾",
+          "clue": "A make-believe creature in a story",
+          "spoken": "A make-believe creature in a story"
+        },
+        {
+          "word": "DINOSAUR",
+          "row": 0,
+          "col": 5,
+          "direction": "down",
+          "emoji": "🦖",
+          "clue": "A giant reptile from long, long ago",
+          "spoken": "A giant reptile from long, long ago"
+        },
+        {
+          "word": "LION",
+          "row": 1,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🦁",
+          "clue": "The big cat that roars and has a mane",
+          "spoken": "The big cat that roars and has a mane"
+        },
+        {
+          "word": "PLATE",
+          "row": 2,
+          "col": 7,
+          "direction": "down",
+          "emoji": "🍽",
+          "clue": "Your food sits on this flat round dish",
+          "spoken": "Your food sits on this flat round dish"
+        },
+        {
+          "word": "SCHOOL",
+          "row": 3,
+          "col": 2,
+          "direction": "across",
+          "emoji": "🏫",
+          "clue": "The place where you go to learn",
+          "spoken": "The place where you go to learn"
+        },
+        {
+          "word": "ELEPHANT",
+          "row": 5,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🐘",
+          "clue": "A huge grey animal with a long trunk",
+          "spoken": "A huge grey animal with a long trunk"
+        },
+        {
+          "word": "BIRD",
+          "row": 7,
+          "col": 3,
+          "direction": "across",
+          "emoji": "🐦",
+          "clue": "It has feathers and can fly",
+          "spoken": "It has feathers and can fly"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "tier": 3,
+      "rows": 8,
+      "cols": 8,
+      "entries": [
+        {
+          "word": "PLANE",
+          "row": 0,
+          "col": 1,
+          "direction": "across",
+          "emoji": "✈",
+          "clue": "It has wings and flies people through the sky",
+          "spoken": "It has wings and flies people through the sky"
+        },
+        {
+          "word": "PENGUIN",
+          "row": 0,
+          "col": 1,
+          "direction": "down",
+          "emoji": "🐧",
+          "clue": "A black and white bird that waddles on ice",
+          "spoken": "A black and white bird that waddles on ice"
+        },
+        {
+          "word": "ELEPHANT",
+          "row": 0,
+          "col": 5,
+          "direction": "down",
+          "emoji": "🐘",
+          "clue": "A huge grey animal with a long trunk",
+          "spoken": "A huge grey animal with a long trunk"
+        },
+        {
+          "word": "POPCORN",
+          "row": 0,
+          "col": 7,
+          "direction": "down",
+          "emoji": "🍿",
+          "clue": "Corn that goes pop and puffs up white",
+          "spoken": "Corn that goes pop and puffs up white"
+        },
+        {
+          "word": "SHEEP",
+          "row": 2,
+          "col": 3,
+          "direction": "across",
+          "emoji": "🐑",
+          "clue": "A woolly farm animal that says baa",
+          "spoken": "A woolly farm animal that says baa"
+        },
+        {
+          "word": "SCHOOL",
+          "row": 2,
+          "col": 3,
+          "direction": "down",
+          "emoji": "🏫",
+          "clue": "The place where you go to learn",
+          "spoken": "The place where you go to learn"
+        },
+        {
+          "word": "DINOSAUR",
+          "row": 5,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🦖",
+          "clue": "A giant reptile from long, long ago",
+          "spoken": "A giant reptile from long, long ago"
+        },
+        {
+          "word": "PLATE",
+          "row": 7,
+          "col": 2,
+          "direction": "across",
+          "emoji": "🍽",
+          "clue": "Your food sits on this flat round dish",
+          "spoken": "Your food sits on this flat round dish"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "tier": 3,
+      "rows": 8,
+      "cols": 8,
+      "entries": [
+        {
+          "word": "LANTERN",
+          "row": 0,
+          "col": 1,
+          "direction": "across",
+          "emoji": "🏮",
+          "clue": "A little lamp you carry in the dark",
+          "spoken": "A little lamp you carry in the dark"
+        },
+        {
+          "word": "LEAF",
+          "row": 0,
+          "col": 1,
+          "direction": "down",
+          "emoji": "🍃",
+          "clue": "It grows green on a branch",
+          "spoken": "It grows green on a branch"
+        },
+        {
+          "word": "NOSE",
+          "row": 0,
+          "col": 3,
+          "direction": "down",
+          "emoji": "👃",
+          "clue": "You smell with it",
+          "spoken": "You smell with it"
+        },
+        {
+          "word": "ELEPHANT",
+          "row": 0,
+          "col": 5,
+          "direction": "down",
+          "emoji": "🐘",
+          "clue": "A huge grey animal with a long trunk",
+          "spoken": "A huge grey animal with a long trunk"
+        },
+        {
+          "word": "HAMSTER",
+          "row": 2,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🐹",
+          "clue": "A tiny pet that runs on a wheel",
+          "spoken": "A tiny pet that runs on a wheel"
+        },
+        {
+          "word": "CAVE",
+          "row": 4,
+          "col": 0,
+          "direction": "down",
+          "emoji": "🗻",
+          "clue": "A dark hole in the side of a hill",
+          "spoken": "A dark hole in the side of a hill"
+        },
+        {
+          "word": "MILK",
+          "row": 4,
+          "col": 2,
+          "direction": "down",
+          "emoji": "🥛",
+          "clue": "A white drink that comes from a cow",
+          "spoken": "A white drink that comes from a cow"
+        },
+        {
+          "word": "SHOE",
+          "row": 4,
+          "col": 4,
+          "direction": "across",
+          "emoji": "👟",
+          "clue": "You wear it on your foot to go outside",
+          "spoken": "You wear it on your foot to go outside"
+        },
+        {
+          "word": "VOLCANO",
+          "row": 6,
+          "col": 0,
+          "direction": "across",
+          "emoji": "🌋",
+          "clue": "A mountain that shoots out hot lava",
+          "spoken": "A mountain that shoots out hot lava"
+        }
+      ]
+    }
+  ]
+}
